@@ -1,0 +1,20 @@
+创建仓库
+使用当前目录：git init
+指定目录：git init directory
+
+配置用户名: git config --global user.name 'name'
+配置邮箱地址: git config --global user.email test@email.com
+
+提交
+从工作区添加文件到暂存区：git add file_name
+提交到到版本库：git commit -m 'msg'
+
+克隆
+克隆已有仓库：git clone url (directory)
+
+查看当前状态: git status -s
+查看详细信息: git diff
+
+取消已缓存的内容: git reset HEAD
+删除: git rm file_name
+移动或重命名：git mv str_name end_name
